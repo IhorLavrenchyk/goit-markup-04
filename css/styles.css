@@ -39,7 +39,7 @@ body {
   color: var(--color-text);
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 
 .container {
@@ -110,6 +110,8 @@ header {
   letter-spacing: 0.02em;
 }
 .header-contact {
+  display: flex;
+  align-items: center;
   color: var(--color-p);
   font-weight: 500;
   line-height: 1.1;
@@ -519,6 +521,7 @@ address {
 .portfolio-subtitle {
   font-weight: 700;
   font-size: 18px;
+  color: var(--color-text);
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
@@ -526,6 +529,7 @@ address {
 
 .portfolio-subtitle-part {
   font-weight: 700;
+  color: var(--color-text);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
